@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Documentation</title>
+    <link rel="stylesheet" href="Javascript.css">
+</head>
+
+<body>
+    <header class="tech-header">
+        <div class="container">
+            <h1>Javascript</h1>
+            <nav class="breadcrumb">
+                <a href="index.html"> Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="tech-content">
+        <section class="tech-section">
+            <h2><span class="highlight">About</span>Javascript</h2>
+            <p>
+                Javascript is a progrmaming language used to make web page more interactive.
+                It allows you to Control elements on a page, respond to user actions(like clicks and typing),
+                and dynamically change content, styles, or behaviour without reloading the page.
+            </p>
+        </section>
+
+        <section class="tech-section">
+            <h2><span class="highlight">Key</span> Features.</h2>
+            <ul class="feature-list">
+                <li>Run directly in the browser to make web page interactive.</li>
+                <li>Handling event by responding to users action like clicks, hoveers, or key press.</li>
+                <li>Javascript can change the HTML content and CSS styles dynamically.</li>
+                <li>Form validation checks of users input data before submitting data to server.</li>
+                <li>Supports logic like loops, conditions and functions.</li>
+                <li>Works in all modern web browser.</li>
+            </ul>
+        </section>
+
+        <section class="tech-section">
+            <h2><span class="highlight">Javascript</span> Example.</h2>
+            <pre><code class="language-Javascript">
+                function sumbbit(){
+                    let a =  document.getElementsById("Name").value;
+                    let b = document.getElementsById("password").value;
+                    let message = document.getElementById("Message");
+
+                    if(a === "AayushBudhathoki" && b === "Apple@321") {
+                        message.innnertext = "Login Sucessfull!";
+                    } else {
+                    message.innerText = "Invalid username or password.";
+                    }
+               }
+            </code></pre>
+        </section>
+    </main>
+
+    <footer class="tech-footer">
+        <a href="index.html" class="back-btn"> Back to portfolio.</a>
+    </footer>
+
+</body>
+
+</html>

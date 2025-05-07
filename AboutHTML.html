@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML documentaion.</title>
+    <link rel="stylesheet" href="html.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="tech-header">
+        <div class="container">
+            <h1>HTML</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="tech-content">
+        <section class="tech-section">
+            <h2><span class="highlight">About</span> HTML</h2>
+            <P>HTML stands for HyperText Markup Language. it is the standard language used to create
+                and structure content on the web. it defines the structure of a webpage by using a
+                series of elements, tags, and attributes to organize text, images, links, and other
+                multimedia elements.
+            </P>
+        </section>
+
+        <section class="tech-section">
+            <h2><span class="highlight">Key </span> Features</h2>
+            <ul class="feature-list">
+                <li>Tags are used to structure and organize the content of the web.</li>
+                <li>(&lt;a &gt;) Enables navigation between two different page using clickable link in the web.</li>
+                <li>Elements like heading (&lt;h&gt;), list (&lt;li&gt;) and others sections are avaliable to build the
+                    layout of the page.
+                <li>HTML integrates smoothly with css and Javascript for styling and interactivity respectively.</li>
+            </ul>
+
+        </section>
+
+        <section class="tech-section">
+            <h2><span class="highlight">HTML</span> Example</h2>
+            <div class="code-block">
+                <pre><code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Login Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+        &lt;h1&gt;Login Page&lt;/h1&gt;
+        ID: &lt;input type="text" id="Name" placeholder="ID"&gt;&lt;br&gt;
+        Passcode: &lt;input type="password" id="Password" placeholder="Passcode"&gt;&lt;br&gt;
+        &lt;input type="button" value="sumbit" onclick="sumbit()"&gt;
+        &lt;p id="message"&gt;&lt;/p&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </div>
+        </section>
+    </main>
+
+    <footer class="tech-footer">
+        <a href="index.html" class="back-btn">
+             Back to Portfolio.</a>
+    </footer>
+</body>
+
+</html>

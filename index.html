@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1 class="logo">E Portfolio</h1>
+            <nav class="main-nav">
+                <a href="AboutFullstack.html" class="nav-link active">Fullstack</a>
+                <a href="AboutHTML.html" class="nav-link">HTML</a>
+                <a href="AboutCSS.html" class="nav-link">CSS</a>
+                <a href="AboutBootstrap.html" class="nav-link">Bootstrap</a>
+                <a href="AboutJavascript.html" class="nav-link">Javascript</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="portfolio-grid">
+        <article class="tech-card">
+            <div class="card-content">
+                <h3 class="card-title">Full-Stack</h3>
+                <p class="card-text">Explore more about fullstack.</p>
+                <button class="btn" onclick="navigatetoFullstack()">Read more</button>
+            </div>
+        </article>
+
+        <article class="tech-card">
+            <div class="card-content">
+                <h3 class="card-title">HTML</h3>
+                <p class="card-text">Explore more about HTML.</p>
+                <button class="btn" onclick="navigatetoHTML()">Read more</button>
+            </div>
+        </article>
+
+        <article class="tech-card">
+            <div class="card-content">
+                <h3 class="card-title">CSS</h3>
+                <p class="card-text">Explore more about CSS.</p>
+                <button class="btn" onclick="navigatetoCSS()">Read more</button>
+            </div>
+        </article>
+
+        <article class="tech-card">
+            <div class="card-content">
+                <h3 class="card-title">Bootstrap</h3>
+                <p class="card-text">Explore more about Bootstrap.</p>
+                <button class="btn" onclick="navigatetoBootstrap()">Read more</button>
+            </div>
+        </article>
+
+        <article class="tech-card">
+            <div class="card-content">
+                <h3 class="card-title">Javascript</h3>
+                <p class="card-text">Explore more about Javascript.</p>
+                <button class="btn" onclick="navigatetoJavascript()">Read more</button>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        function navigatetoFullstack() {
+            window.location.href = "AboutFullstack.html";
+        }
+
+        function navigatetoHTML() {
+            window.location.href = "AboutHTML.html";
+        }
+
+        function navigatetoCSS() {
+            window.location.href = "AboutCSS.html";
+        }
+
+        function navigatetoBootstrap() {
+            window.location.href = "AboutBootstrap.html";
+        }
+
+        function navigatetoJavascript() {
+            window.location.href = "AboutJavascript.html";
+        }
+    </script>
+    
+</body>
+</html>
